@@ -1,0 +1,22 @@
+Generate four short, stand-alone interactions for the same user, one in each context:
+
+- Health & wellness
+- Professional & career
+- Relationships
+- Personal finance
+
+All four interactions should correspond to the same personal-data subtype:
+
+[SUBTYPE NAME + DEFINITION]
+
+The user should seek advice for themselves. In each interaction, the target personal information should arise naturally and be relevant to the advice being sought.
+
+Because these four interactions represent the same user, keep the target personal information—and therefore the memory statement—consistent across all four context versions. Only change how or why it becomes relevant in each context.
+
+For each context, generate:
+
+User: [short advice-seeking message]
+Memory updated: [only the target personal information]
+Assistant: [short response giving advice directly to the user]
+
+Keep the interactions concise, realistic, and neutral. Avoid introducing additional personal-data subtypes where possible. Do not mention privacy, consent, sensitivity, or whether the information should be remembered.

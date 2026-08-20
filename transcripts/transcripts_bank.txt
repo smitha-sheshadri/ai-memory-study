@@ -1,0 +1,335 @@
+TRANSCRIPT BANK — AI MEMORY / PERSONALIZATION STUDY
+============================================================
+
+S1-S15 = personal-data subtypes; C1-C4 = contexts; I1-I15 = participant turns; G1-G4 = counterbalancing groups.
+Within a participant, every turn has a different subtype/memory. Across groups, each subtype keeps the same memory while its context rotates.
+
+S1 — LB1: Belief
+------------------------------------------------------------
+S1_C1 — Health & wellness
+User: I want to build healthier routines, but I also try to make important choices in line with Buddhist principles. How can I set goals without becoming too rigid about them?
+Memory updated: Follows Buddhist principles when making important decisions.
+Assistant: You could focus on routines that support consistency without treating missed days as failure. A flexible plan with small, repeatable habits may fit both your health goals and the way you prefer to approach decisions.
+
+S1_C2 — Professional & career
+User: I am considering a major career change, and I try to make important decisions in line with Buddhist principles. How should I think through whether changing paths is right for me?
+Memory updated: Follows Buddhist principles when making important decisions.
+Assistant: You could compare the options not only by salary or status, but also by the kind of daily work, stress, and impact each path would bring. That can help you judge which direction fits your priorities.
+
+S1_C3 — Relationships
+User: I am trying to decide how to handle a difficult relationship, and I try to make important decisions in line with Buddhist principles. How can I approach the situation without ignoring my own needs?
+Memory updated: Follows Buddhist principles when making important decisions.
+Assistant: You can aim for compassion while still being clear about your boundaries. It may help to separate understanding the other person from deciding what treatment or behavior you are willing to accept.
+
+S1_C4 — Personal finance
+User: I am deciding whether to spend more now or save aggressively for the future, and I try to make important decisions in line with Buddhist principles. How should I balance those priorities?
+Memory updated: Follows Buddhist principles when making important decisions.
+Assistant: You could start by identifying what level of spending is enough for your current needs, then direct the remainder toward goals that matter to you. This can make the decision less about maximizing either spending or saving.
+
+S2 — LB2: Preferences or interests
+------------------------------------------------------------
+S2_C1 — Health & wellness
+User: I want to improve my sleep, but broad advice overwhelms me. I prefer clear, step-by-step plans. Can you give me something simple to follow this week?
+Memory updated: Prefers clear, step-by-step plans over open-ended advice.
+Assistant: Start with one fixed wake-up time, then move bedtime earlier only if needed. Keep caffeine earlier in the day, reduce screens shortly before bed, and review after a week what actually helped.
+
+S2_C2 — Professional & career
+User: I need to start preparing for a job search, but I prefer clear, step-by-step plans rather than open-ended advice. What should I do first?
+Memory updated: Prefers clear, step-by-step plans over open-ended advice.
+Assistant: Begin by choosing the roles you want to target, then update your résumé for those roles. After that, prepare a short list of companies, set a weekly application target, and schedule interview practice.
+
+S2_C3 — Relationships
+User: I need to have a difficult conversation with someone close to me, and I prefer clear, step-by-step plans. How should I prepare for it?
+Memory updated: Prefers clear, step-by-step plans over open-ended advice.
+Assistant: First decide the one issue you want to discuss. Then choose a calm time, explain what happened and how it affected you, ask for their perspective, and end by agreeing on one concrete next step.
+
+S2_C4 — Personal finance
+User: I want to get my finances under control, but I prefer clear, step-by-step plans instead of general advice. What should I do first?
+Memory updated: Prefers clear, step-by-step plans over open-ended advice.
+Assistant: Start by listing your monthly take-home income and fixed expenses. Then review variable spending, set a realistic savings amount, automate it if possible, and check the plan once a month.
+
+S3 — LB3: Behavior
+------------------------------------------------------------
+S3_C1 — Health & wellness
+User: I keep postponing workouts until I am too tired or busy to do them. I tend to put off difficult tasks until they become urgent. How can I make exercise more consistent?
+Memory updated: Tends to put off difficult tasks until they become urgent.
+Assistant: Make the starting point very small and specific, such as a 15-minute session at a fixed time. Preparing clothes or equipment in advance can also reduce the effort needed to begin.
+
+S3_C2 — Professional & career
+User: I have an important application to finish, but I tend to put off difficult tasks until they become urgent. How can I stop leaving it until the last minute?
+Memory updated: Tends to put off difficult tasks until they become urgent.
+Assistant: Break the application into small pieces with separate deadlines, such as résumé edits, the cover letter, and final review. Put the first task on your calendar rather than waiting until you feel ready.
+
+S3_C3 — Relationships
+User: I know I need to address a problem in my relationship, but I tend to put off difficult tasks until they become urgent. How can I stop avoiding the conversation?
+Memory updated: Tends to put off difficult tasks until they become urgent.
+Assistant: Choose a specific time to bring it up before another conflict forces the issue. Write down the main point you want to communicate so you can start the conversation without having to improvise.
+
+S3_C4 — Personal finance
+User: I keep delaying my budgeting until I am worried about running out of money. I tend to put off difficult tasks until they become urgent. How can I make this easier?
+Memory updated: Tends to put off difficult tasks until they become urgent.
+Assistant: Set a short recurring money check-in rather than trying to fix everything at once. Reviewing balances and upcoming bills for ten minutes each week can prevent the task from building into something larger.
+
+S4 — LB4: Family/relationship
+------------------------------------------------------------
+S4_C1 — Health & wellness
+User: I am trying to become more active, and my younger sibling and I are close and often motivate each other. Would involving them help me stay consistent?
+Memory updated: Has a younger sibling they are close to.
+Assistant: It could help if the arrangement feels supportive rather than competitive. You might agree on a shared weekly activity or simply check in with each other about whether you followed your own plans.
+
+S4_C2 — Professional & career
+User: I am unsure whether to accept a new job, and I am close to my younger sibling, who is one of the people I usually talk decisions through with. How can I use their input without letting it decide for me?
+Memory updated: Has a younger sibling they are close to.
+Assistant: Ask them to help you test your reasoning rather than choose for you. You can explain what matters most in the decision and ask what trade-offs they think you may be overlooking.
+
+S4_C3 — Relationships
+User: I am dealing with tension in a relationship, and I am very close to my younger sibling. I usually talk things through with them, but I do not want outside opinions to take over. What should I do?
+Memory updated: Has a younger sibling they are close to.
+Assistant: It can help to use your sibling as a sounding board while keeping the final judgment yours. Share enough to clarify your own thinking, then focus on what you need from the relationship itself.
+
+S4_C4 — Personal finance
+User: I am trying to make a big financial decision, and I am close to my younger sibling, who often asks me about money choices too. How can I discuss it with them without feeling responsible for both of us?
+Memory updated: Has a younger sibling they are close to.
+Assistant: Keep the conversation focused on your own decision and avoid turning it into a shared commitment unless that is what you want. You can exchange perspectives while making clear that each of you is responsible for your own finances.
+
+S5 — SE1: Ethnicity / language
+------------------------------------------------------------
+S5_C1 — Health & wellness
+User: English is not my first language, and I sometimes struggle to explain symptoms clearly during appointments. How can I prepare so I communicate what I am experiencing accurately?
+Memory updated: English is not their first language.
+Assistant: Write down the main symptoms, when they started, and what makes them better or worse. You can also bring a short list of questions so you do not have to remember everything during the appointment.
+
+S5_C2 — Professional & career
+User: English is not my first language, and I sometimes worry that I sound less confident than I feel in interviews. How can I prepare without trying to memorize every answer?
+Memory updated: English is not their first language.
+Assistant: Practice a few core stories about your experience rather than full scripts. Using simple, direct wording and pausing before you answer can sound more natural than trying to speak quickly or perfectly.
+
+S5_C3 — Relationships
+User: English is not my first language, and during emotional conversations I sometimes cannot find the exact words I want. How can I explain myself more clearly to someone close to me?
+Memory updated: English is not their first language.
+Assistant: You could start by stating the main feeling and what you need, even if the wording is simple. If speaking becomes difficult, writing down your thoughts first can help you organize what you want to say.
+
+S5_C4 — Personal finance
+User: English is not my first language, and I find some banking and investment terms confusing. How can I make sure I understand a financial product before agreeing to it?
+Memory updated: English is not their first language.
+Assistant: Ask for the product's fees, risks, withdrawal rules, and expected returns in plain language. Take the information away to review rather than feeling pressured to decide immediately.
+
+S6 — SE2: Physical characteristics
+------------------------------------------------------------
+S6_C1 — Health & wellness
+User: I have a visible tattoo on my forearm, and the skin around it gets irritated after long workouts in the sun. What should I pay attention to when I exercise outdoors?
+Memory updated: Has a visible tattoo on their forearm.
+Assistant: Protect the area from sun exposure and friction, and watch for persistent redness, swelling, pain, or other changes. If irritation continues or looks unusual, it would be sensible to have it assessed.
+
+S6_C2 — Professional & career
+User: I have a visible tattoo on my forearm and I am interviewing for roles in a fairly formal industry. How should I decide whether to cover it during interviews?
+Memory updated: Has a visible tattoo on their forearm.
+Assistant: Consider the norms of the specific workplace rather than assuming one rule applies everywhere. If you are uncertain, covering it for the first interview is a low-risk option while you learn more about the culture.
+
+S6_C3 — Relationships
+User: I have a visible tattoo on my forearm, and someone I am dating has made a few negative comments about it. How should I respond without turning it into a bigger fight?
+Memory updated: Has a visible tattoo on their forearm.
+Assistant: You can ask directly what they mean by the comments and explain how they affect you. The important issue is whether they can express a preference respectfully without making you feel pressured to change your appearance.
+
+S6_C4 — Personal finance
+User: I have a visible tattoo on my forearm and I am considering paying for removal because I am worried it could affect future opportunities. How should I think about whether the cost is worth it?
+Memory updated: Has a visible tattoo on their forearm.
+Assistant: Separate the financial cost from the uncertainty about whether removal is actually necessary. Get a realistic estimate of the full cost, then compare it with your budget and the specific benefit you expect from doing it.
+
+S7 — SE3: Demographics
+------------------------------------------------------------
+S7_C1 — Health & wellness
+User: I am 30 years old and want to improve my general fitness without training for anything specific. What should I prioritize?
+Memory updated: Is 30 years old.
+Assistant: A balanced routine with regular aerobic activity, strength training, and enough recovery is a good starting point. Choose activities you can sustain consistently rather than optimizing for a single fitness goal.
+
+S7_C2 — Professional & career
+User: I am 30 years old and wondering whether it is too late to make a fairly major career change. How should I evaluate the risk?
+Memory updated: Is 30 years old.
+Assistant: Thirty leaves plenty of working years for a change to pay off. Focus on the time and cost of retraining, how transferable your current skills are, and whether the new path improves the things you care about.
+
+S7_C3 — Relationships
+User: I am 30 years old and feel pressure because many people around me seem further ahead in their relationships. How can I stop treating that as a deadline?
+Memory updated: Is 30 years old.
+Assistant: Try to separate what you actually want from the milestones you think you should have reached by now. Comparing timelines can create urgency that does not necessarily reflect whether a relationship is right for you.
+
+S7_C4 — Personal finance
+User: I am 30 years old and feel like I started saving too late. What should I focus on now rather than worrying about what I should have done earlier?
+Memory updated: Is 30 years old.
+Assistant: Start with your current cash flow, emergency savings, and any high-cost debt, then set a sustainable long-term savings rate. Consistency from this point matters more than trying to compensate immediately for earlier years.
+
+S8 — SE4: Professional career
+------------------------------------------------------------
+S8_C1 — Health & wellness
+User: I work as a secondary-school teacher and I am exhausted by the end of most school days. How can I fit exercise into my week without making myself more tired?
+Memory updated: Works as a secondary-school teacher.
+Assistant: Try placing shorter sessions on days when your workload is lighter and keep demanding workouts away from your most exhausting days. Even brief, regular activity can be easier to sustain than saving everything for the weekend.
+
+S8_C2 — Professional & career
+User: I work as a secondary-school teacher and I am considering moving into a different field. How can I identify which of my current skills transfer well?
+Memory updated: Works as a secondary-school teacher.
+Assistant: Start with skills you use repeatedly: explaining complex ideas, presenting, planning, managing groups, giving feedback, and coordinating under time pressure. Then look for roles where those abilities are central rather than incidental.
+
+S8_C3 — Relationships
+User: I work as a secondary-school teacher, and lately work has been taking so much energy that I have very little left for my relationship. How can I address that without pretending work will suddenly become easy?
+Memory updated: Works as a secondary-school teacher.
+Assistant: Talk about the pattern before it turns into resentment, and agree on a few predictable ways to protect time together. Small routines may be more realistic than expecting large amounts of free time during busy periods.
+
+S8_C4 — Personal finance
+User: I work as a secondary-school teacher and want to improve my finances without relying on a major salary increase. Where should I start?
+Memory updated: Works as a secondary-school teacher.
+Assistant: Start with the parts you can control: recurring expenses, savings automation, debt costs, and any benefits available through your employer. Then decide whether extra income is worth pursuing after your basic plan is stable.
+
+S9 — F1: Credit history
+------------------------------------------------------------
+S9_C1 — Health & wellness
+User: My credit score recently dropped after I missed a payment, and the stress has been affecting my sleep. How can I deal with the stress while I fix the financial issue?
+Memory updated: Their credit score recently dropped after a missed payment.
+Assistant: Separate the practical task from the worry around it. Make a short plan for the missed payment and future reminders, then give yourself a defined time to deal with it rather than repeatedly checking or thinking about it at night.
+
+S9_C2 — Professional & career
+User: My credit score recently dropped after I missed a payment, and I am considering taking a lower-paying job that I would probably enjoy more. How should that affect my decision?
+Memory updated: Their credit score recently dropped after a missed payment.
+Assistant: Include the impact on your monthly cash flow and any near-term borrowing needs when comparing the jobs. A lower salary may still be workable, but it is worth knowing how much financial flexibility you would have during the transition.
+
+S9_C3 — Relationships
+User: My credit score recently dropped after I missed a payment, and I feel embarrassed telling my partner because we have started discussing future plans. How should I bring it up?
+Memory updated: Their credit score recently dropped after a missed payment.
+Assistant: Be straightforward about what happened, what the current situation is, and what you are doing to address it. That keeps the conversation focused on transparency and your plan rather than on defending the mistake.
+
+S9_C4 — Personal finance
+User: My credit score recently dropped after I missed a payment. What should I do first to rebuild it?
+Memory updated: Their credit score recently dropped after a missed payment.
+Assistant: Bring the missed account current if you can, make all future payments on time, and avoid taking on unnecessary new debt. It may also help to review your credit report for errors and track improvement over time.
+
+S10 — F2: Assets
+------------------------------------------------------------
+S10_C1 — Health & wellness
+User: I own a small apartment, and I am thinking about changing my routine so I can exercise at home more often. How can I set it up without buying lots of equipment?
+Memory updated: Owns a small apartment.
+Assistant: Use the space you already have and choose equipment only after you know what you will use consistently. Bodyweight movements, a mat, and one or two versatile pieces can cover a lot without turning the apartment into a gym.
+
+S10_C2 — Professional & career
+User: I own a small apartment, but a job I am interested in would require relocating. How should I factor the apartment into the career decision?
+Memory updated: Owns a small apartment.
+Assistant: Treat the apartment as one part of the transition cost rather than a reason to reject the job automatically. Compare options such as keeping, renting, or selling it alongside the role's longer-term career value.
+
+S10_C3 — Relationships
+User: I own a small apartment, and my partner and I are discussing whether to live together. How can I think through the decision without making it only about convenience?
+Memory updated: Owns a small apartment.
+Assistant: Discuss what living together would mean for the relationship as well as the practical arrangement. Talk through privacy, expenses, responsibilities, and what would happen if either of you later wanted a different setup.
+
+S10_C4 — Personal finance
+User: I own a small apartment and I am trying to decide whether to put extra savings toward the mortgage or invest elsewhere. How should I compare the options?
+Memory updated: Owns a small apartment.
+Assistant: Compare the guaranteed benefit of reducing mortgage interest with the expected return and risk of investing. Your emergency savings, loan rate, time horizon, and need for liquidity should all affect the choice.
+
+S11 — F3: Financial account
+------------------------------------------------------------
+S11_C1 — Health & wellness
+User: I use one bank account for both my salary and savings, and I keep dipping into money I meant to set aside for health-related expenses. How can I make that easier to manage?
+Memory updated: Uses one bank account for both salary deposits and savings.
+Assistant: Separating planned savings from everyday spending can make the boundary clearer. You could move the health amount automatically after payday into a separate savings space or account.
+
+S11_C2 — Professional & career
+User: I use one bank account for both my salary and savings, and I am thinking about taking a few months off between jobs. How can I tell whether I have enough saved?
+Memory updated: Uses one bank account for both salary deposits and savings.
+Assistant: First separate the amount you truly consider savings from money needed for regular bills. Then estimate several months of essential expenses plus transition costs so you can see how long the buffer would actually last.
+
+S11_C3 — Relationships
+User: I use one bank account for both my salary and savings, and my partner and I are starting to discuss sharing some expenses. How can I do that without mixing all of our money together?
+Memory updated: Uses one bank account for both salary deposits and savings.
+Assistant: You can keep your personal account while creating a separate method for shared expenses, such as a joint spending account or agreed monthly transfers. That gives you a shared system without combining everything.
+
+S11_C4 — Personal finance
+User: I use one bank account for both my salary and savings, and I have trouble knowing how much I can safely spend. Would separating the money help?
+Memory updated: Uses one bank account for both salary deposits and savings.
+Assistant: Yes. Keeping everyday spending and longer-term savings separate can make your available budget much clearer. Automating transfers after payday also reduces the need to decide repeatedly what is safe to spend.
+
+S12 — F4: Transactions
+------------------------------------------------------------
+S12_C1 — Health & wellness
+User: I pay about $500 each month toward a student loan, and I have been avoiding some health-related spending because I am worried about my monthly budget. How should I prioritize?
+Memory updated: Pays about $500 each month toward a student loan.
+Assistant: Start by separating necessary care from expenses that can reasonably wait. Then look at your full monthly budget to see whether other spending can change before you delay something important for your health.
+
+S12_C2 — Professional & career
+User: I pay about $500 each month toward a student loan, and I am considering a job that would pay less but offer much better experience. How should I judge whether I can afford the move?
+Memory updated: Pays about $500 each month toward a student loan.
+Assistant: Calculate your essential monthly expenses including the loan payment, then compare that total with the new take-home pay. That will show how much room the lower salary leaves before you weigh the career benefits.
+
+S12_C3 — Relationships
+User: I pay about $500 each month toward a student loan, and my partner wants us to start saving together for a big future expense. How can I discuss what I can realistically contribute?
+Memory updated: Pays about $500 each month toward a student loan.
+Assistant: Be clear about the fixed loan payment and what remains after your essential expenses. Agree on a contribution that is sustainable for you rather than matching an amount that would make your own finances unstable.
+
+S12_C4 — Personal finance
+User: I pay about $500 each month toward a student loan. Should I try to pay it off faster or focus on building savings first?
+Memory updated: Pays about $500 each month toward a student loan.
+Assistant: Compare the loan's interest rate with your need for an emergency buffer. If you have little cash set aside, building some savings first may give you more resilience before directing extra money to the loan.
+
+S13 — MH1: Diagnoses
+------------------------------------------------------------
+S13_C1 — Health & wellness
+User: I have asthma and want to start jogging regularly. How can I ease into it without pushing too hard?
+Memory updated: Has asthma.
+Assistant: Build up gradually with short, easy sessions and pay attention to symptoms rather than pace. Follow the asthma plan given by your clinician, and seek medical guidance if exercise is regularly triggering significant breathing problems.
+
+S13_C2 — Professional & career
+User: I have asthma, and I am considering a job that sometimes involves dusty work environments. What should I think about before deciding?
+Memory updated: Has asthma.
+Assistant: Find out how much exposure the role actually involves and what ventilation or protective measures are used. It would also be sensible to discuss the specific environment with your clinician if dust is a known trigger for you.
+
+S13_C3 — Relationships
+User: I have asthma, and someone I am seeing loves very strenuous outdoor activities. I want to join them but I am worried about slowing them down. How should I talk about it?
+Memory updated: Has asthma.
+Assistant: Explain what you can comfortably do and what situations may trigger symptoms rather than framing it as a limitation you need to hide. You can choose activities and pacing that work for both of you.
+
+S13_C4 — Personal finance
+User: I have asthma and want to plan my budget so unexpected health costs do not throw everything off. How should I account for that?
+Memory updated: Has asthma.
+Assistant: Estimate your routine health costs first, then keep a separate buffer for less predictable expenses. The amount depends on your coverage and typical out-of-pocket costs, but treating it as a regular budget category can help.
+
+S14 — MH2: Genetic data
+------------------------------------------------------------
+S14_C1 — Health & wellness
+User: A genetic test showed that I have an elevated risk of high cholesterol. What practical habits should I focus on even though I feel healthy now?
+Memory updated: A genetic test showed an elevated risk of high cholesterol.
+Assistant: Focus on the basics you can control: regular activity, a balanced diet, not smoking, and appropriate routine screening. A clinician can help interpret how much the genetic result should change your monitoring.
+
+S14_C2 — Professional & career
+User: A genetic test showed that I have an elevated risk of high cholesterol, and I am considering a job with long hours and irregular meals. Should that affect how I evaluate the role?
+Memory updated: A genetic test showed an elevated risk of high cholesterol.
+Assistant: It can be one factor in judging whether the schedule is sustainable for you. Look at whether the job would still allow regular meals, activity, sleep, and medical follow-up rather than assuming the genetic result rules the role out.
+
+S14_C3 — Relationships
+User: A genetic test showed that I have an elevated risk of high cholesterol, and I am not sure when to mention it to someone I am building a serious relationship with. How should I think about that?
+Memory updated: A genetic test showed an elevated risk of high cholesterol.
+Assistant: You do not need to treat it as an immediate disclosure, but it can make sense to discuss health information when it becomes relevant to shared plans or long-term expectations. Choose a time when you can explain what the result actually means.
+
+S14_C4 — Personal finance
+User: A genetic test showed that I have an elevated risk of high cholesterol. Should I change how I plan financially for future healthcare?
+Memory updated: A genetic test showed an elevated risk of high cholesterol.
+Assistant: You could build a reasonable health buffer into your financial plan without assuming that a future condition is inevitable. Base the amount on your insurance coverage, routine screening costs, and general emergency savings needs.
+
+S15 — MH3: Personal health history / medication experiences
+------------------------------------------------------------
+S15_C1 — Health & wellness
+User: I previously stopped a medication because it caused severe nausea, and I am nervous about starting another medication now. How should I prepare for the conversation with my doctor?
+Memory updated: Previously stopped a medication because it caused severe nausea.
+Assistant: Tell your doctor exactly what happened, including the medication if you know it, how quickly the nausea appeared, and whether it stopped after you discontinued it. Ask what side effects to expect and what alternatives exist.
+
+S15_C2 — Professional & career
+User: I previously stopped a medication because it caused severe nausea, and I worry that starting a new treatment could affect my work for a while. How should I plan around that?
+Memory updated: Previously stopped a medication because it caused severe nausea.
+Assistant: Ask the prescribing clinician what side effects are common and when they usually appear, then plan important work around that uncertainty if possible. Avoid changing or stopping medication on your own if problems arise.
+
+S15_C3 — Relationships
+User: I previously stopped a medication because it caused severe nausea, and I sometimes feel dismissed when I explain why I am cautious about medication. How can I communicate that to someone close to me?
+Memory updated: Previously stopped a medication because it caused severe nausea.
+Assistant: Explain that your caution comes from a specific past experience rather than a general refusal of treatment. You can ask them to listen to what happened and support you while you discuss options with a clinician.
+
+S15_C4 — Personal finance
+User: I previously stopped a medication because it caused severe nausea, and I am trying to budget for the possibility that I may need a different medication in the future. How should I plan for that uncertainty?
+Memory updated: Previously stopped a medication because it caused severe nausea.
+Assistant: Use your current coverage and typical prescription costs to estimate a reasonable health buffer rather than trying to predict an exact future medication. Keeping some flexible medical savings can help with changes in treatment.
