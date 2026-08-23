@@ -1,5 +1,9 @@
 import {useEffect,useMemo,useState} from "react";
+import {generateClient} from "aws-amplify/data";
+import type {Schema} from "../amplify/data/resource";
 import bank from "./data/transcripts_bank.json";
+
+const client=generateClient<Schema>();
 
 type GroupId="G1"|"G2"|"G3"|"G4";
 type Screen="dev"|"instructions"|"interaction"|"survey"|"done";
@@ -32,21 +36,6 @@ function getParticipantMeta(){
  const participantId=prolificPid || stored || makeId();
  if(!stored) localStorage.setItem("participant-id",participantId);
  return {participantId,prolificPid,studyId,sessionId};
-}
-
-async function sendToBackend(payload:any){
- const endpoint=import.meta.env.VITE_API_URL;
- if(!endpoint) return;
- try{
-   const res=await fetch(endpoint,{
-     method:"POST",
-     headers:{"Content-Type":"application/json"},
-     body:JSON.stringify(payload)
-   });
-   if(!res.ok) throw new Error(`HTTP ${res.status}`);
- }catch(err){
-   console.error("Failed to send response to backend:",err);
- }
 }
 
 export default function App(){
@@ -113,13 +102,13 @@ export default function App(){
    setAnswers(a=>({...a,[currentQ.id]:v}));
  };
 
- const nextQuestion=()=>{
+ const nextQuestion=async()=>{
    if(!answers[currentQ.id]){alert("Please select an answer.");return}
    if(questionIndex<questionSet.length-1) setQuestionIndex(i=>i+1);
-   else submit(false);
+   else await submit(false);
  };
 
- const submit=(skip=false)=>{
+ const submit=async(skip=false)=>{
    const itemAnswers=skip?{skipped_dev:true}:answers;
    const row={
      participant_id:participant.participantId,
@@ -136,21 +125,44 @@ export default function App(){
      attention_correct:skip?null:answers.ATTN===attn,
      timestamp:new Date().toISOString()
    };
+
    const updated=[...results,row];
    setResults(updated);
    localStorage.setItem("study-results",JSON.stringify(updated));
-   void sendToBackend({event:"interaction_complete",...row});
+
+   if(!skip){
+     const {errors}=await client.models.StudyResponse.create({
+       participantId:participant.participantId,
+       prolificPid:participant.prolificPid ?? undefined,
+       prolificStudyId:participant.studyId ?? undefined,
+       prolificSessionId:participant.sessionId ?? undefined,
+       studyGroup:group,
+       interactionTurn:assignment.interaction_turn,
+       transcriptId:transcript.transcript_id,
+       subtypeId:transcript.subtype_id,
+       contextId:transcript.context_id,
+       pb1:answers.PB1,
+       pb2:answers.PB2,
+       pb3:answers.PB3,
+       pv1:answers.PV1,
+       pv2:answers.PV2,
+       pv3:answers.PV3,
+       pv4:answers.PV4,
+       pv5:answers.PV5,
+       pr1:answers.PR1,
+       attentionTarget:attn,
+       attentionAnswer:answers.ATTN,
+       attentionCorrect:answers.ATTN===attn
+     });
+
+     if(errors?.length){
+       console.error("Failed to save response to Amplify Data",errors);
+       alert("Your response could not be saved. Please try again.");
+       return;
+     }
+   }
 
    if(turn===14){
-     void sendToBackend({
-       event:"study_complete",
-       participant_id:participant.participantId,
-       prolific_pid:participant.prolificPid,
-       prolific_study_id:participant.studyId,
-       prolific_session_id:participant.sessionId,
-       group,
-       completed_at:new Date().toISOString()
-     });
      setScreen("done");
    }else{
      setTurn(t=>t+1);
@@ -158,7 +170,7 @@ export default function App(){
    }
  };
 
- const skipSurvey=()=>submit(true);
+ const skipSurvey=()=>void submit(true);
 
  const download=()=>{
    const b=new Blob([JSON.stringify({
